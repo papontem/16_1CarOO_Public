@@ -56,7 +56,11 @@ blockquote {
 }
 /* Style for my footer */
 section.Footer_Content {
-	background-color: var(--my-bk-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--my-bk-color1);
+	background-color: var(--my-bk-color10);
 	font-family: "BIZ UDPGothic", sans-serif, "Smokum", cursive;
 	border: 2px solid var(--my-bk-color10);
 	margin: 10px;
